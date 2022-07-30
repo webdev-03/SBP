@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #main {
+            width: 400px;
+            height: 150px;
+            border: 1px solid #c3c3c3;
+            display: -webkit-flex;
+            /* Safari */
+            display: flex;
+        }
+
+        #main div {
+            width: 100%;
+            height: 70px;
+            display: flex;
+        }
+
+        #main div:nth-of-type(even) .first {
+            order: 2;
+        }
+
+        #main div:nth-of-type(even) .sec {
+            order: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>The order Property</h1>
+
+    <div id="main">
+        <div style="background-color:coral;" id="myRedDIV">
+            <div class="first">
+                <p>ORDER 1</p>
+            </div>
+            <div class="sec">
+                <p>ORDER 2</p>
+            </div>
+        </div>
+        <div style="background-color:lightblue;" id="myBlueDIV">
+            <div class="first">
+                <p>ORDER 1</p>
+            </div>
+            <div class="sec">
+                <p>ORDER 2</p>
+            </div>
+        </div>
+        <div style="background-color:lightgreen;" id="myGreenDIV">
+            <div class="first">
+                <p>ORDER 1</p>
+            </div>
+            <div class="sec">
+                <p>ORDER 2</p>
+            </div>
+        </div>
+        <div style="background-color:pink;" id="myPinkDIV">
+            <div class="first">
+                <p>ORDER 1</p>
+            </div>
+            <div class="sec">
+                <p>ORDER 2</p>
+            </div>
+        </div>
+    </div>
+
+    <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the order property.</p>
+
+    <p><b>Note:</b> Safari 6.1 (and newer) supports an alternative, the -webkit-order property.</p>
+
+</body>
+
+</html>
