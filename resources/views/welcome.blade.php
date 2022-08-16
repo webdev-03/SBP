@@ -21,28 +21,27 @@
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <h3>About Us</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et
-                            dolore magna aliqua.
+                            {{config('app.name')}} is supplier of Small, Medium, Office and Commercial Segment photocopiers Parts and Service. The Company has established in the year of 2008.
+                            <br><br>
+                            Over 10 years successfull in the photocopier, We have Customers all over the Madhya Pardesh and other cities by delivering high quality products and also by providing best service to them.
                         </p>
-                        <ul>
+                        {{-- <ul>
                             <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo
                                 consequat.</li>
                             <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate
                                 velit.</li>
-                        </ul>
+                            </ul> --}}
+                            <br><br>
                         <div class="row icon-boxes">
                             <div class="col-md-6">
                                 <i class="bx bx-receipt"></i>
-                                <h4>Corporis voluptates sit</h4>
-                                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
-                                </p>
+                                <h4>Photocopier & Lamination Part and Machines</h4>
+                                {{-- <p>We deal in all type of photocopier parts and products and sale Lamination & spiral machines and their parts.</p> --}}
                             </div>
                             <div class="col-md-6 mt-4 mt-md-0">
                                 <i class="bx bx-cube-alt"></i>
-                                <h4>Ullamco laboris nisi</h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                </p>
+                                <h4>Sales & Service</h4>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -57,62 +56,44 @@
 
                 <div class="section-title">
                     <h2>Services</h2>
-                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+                    <p>We provide these Services with Best Quality.</p>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6">
                         <div class="icon-box">
                             <i class="bi bi-briefcase"></i>
-                            <h4><a href="#">Lorem Ipsum</a></h4>
-                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            <h4><a href="#">Photocopier Parts</a></h4>
+                            {{-- <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
                                 occaecati cupiditate
-                                non provident</p>
+                                non provident</p> --}}
                         </div>
                     </div>
                     <div class="col-md-6 mt-4 mt-lg-0">
                         <div class="icon-box">
                             <i class="bi bi-card-checklist"></i>
-                            <h4><a href="#">Dolor Sitema</a></h4>
-                            <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            <h4><a href="#">Lamination and Spiral Machines</a></h4>
+                            {{-- <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                 consequat tarad
-                                limino ata</p>
+                                limino ata</p> --}}
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="icon-box">
                             <i class="bi bi-bar-chart"></i>
-                            <h4><a href="#">Sed ut perspiciatis</a></h4>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            <h4><a href="#">Printer Parts</a></h4>
+                            {{-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                                 nulla pariatur
-                            </p>
+                            </p> --}}
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="icon-box">
                             <i class="bi bi-binoculars"></i>
-                            <h4><a href="#">Nemo Enim</a></h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            <h4><a href="#">Pouch & Roll</a></h4>
+                            {{-- <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
                                 anim id est
-                                laborum</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mt-4">
-                        <div class="icon-box">
-                            <i class="bi bi-brightness-high"></i>
-                            <h4><a href="#">Magni Dolore</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                voluptatum
-                                deleniti atque</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mt-4">
-                        <div class="icon-box">
-                            <i class="bi bi-calendar4-week"></i>
-                            <h4><a href="#">Eiusmod Tempor</a></h4>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-                                nobis est
-                                eligendi</p>
+                                laborum</p> --}}
                         </div>
                     </div>
                 </div>
@@ -120,12 +101,30 @@
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        <section id="ewaste" class="ewaste my-5">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <h3>Manage E-Waste</h3>
+                        <p>
+
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="assets/img/ewaste.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-bg">
             <div class="container">
 
                 <div class="section-title">
                     <h2>Contact</h2>
-                    <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga</p>
+                    <p>Any enquiry, get in touch!</p>
                 </div>
 
                 <div class="row mt-5 justify-content-center">
@@ -137,19 +136,20 @@
                                 <div class="col-lg-4 info">
                                     <i class="bi bi-geo-alt"></i>
                                     <h4>Location:</h4>
-                                    <p>A108 Adam Street<br>New York, NY 535022</p>
+                                    <p>Shop No 211, Murrai Mohalla<br>Grain House (2nd Floor)</p>
+                                    <p>Chhawani, Indore</p>
                                 </div>
 
                                 <div class="col-lg-4 info mt-4 mt-lg-0">
                                     <i class="bi bi-envelope"></i>
                                     <h4>Email:</h4>
-                                    <p>info@example.com<br>contact@example.com</p>
+                                    <p>sushantgulgulia@gmail.com</p>
                                 </div>
 
                                 <div class="col-lg-4 info mt-4 mt-lg-0">
                                     <i class="bi bi-phone"></i>
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+                                    <p>+91 96300-35421<br>+91 98066-39401</p>
                                 </div>
                             </div>
                         </div>
